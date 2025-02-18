@@ -10,7 +10,7 @@ const TestimonialsSection = () => {
         Testimonials
       </span>
 
-      <h2 className="text-4xl font-semibold text-center">
+      <h2 className="text-4xl font-famly text-center">
         What our clients are <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6DDCFF] to-[#7F60F9]">saying</span>
       </h2>
 

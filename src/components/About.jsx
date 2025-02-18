@@ -11,7 +11,7 @@ const AboutUsSection = () => {
         About Us
       </span>
           {/* Heading */}
-          <h2 className="text-[32px] font-semibold mb-[16px] text-center">
+          <h2 className="text-[32px] font-famly mb-[16px] text-center ">
             How Transforms{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6DDCFF] to-[#7F60F9]">
               Businesses

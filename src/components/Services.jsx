@@ -9,7 +9,7 @@ function Services() {
         <span className="bg-gray-100 text-purple-500 px-4 py-1 rounded-full text-sm font-medium mb-4">
        Service
       </span>
-          <h2 className="text-[48px] font-semibold mb-[75px] text-center"> 
+          <h2 className="text-[48px]  mb-[75px] text-center font-famly"> 
             Empowering Businesses with Cutting-Edge
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6DDCFF] to-[#7F60F9]">

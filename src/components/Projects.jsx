@@ -5,7 +5,7 @@ function OurLatestProject() {
   return (
     <>
      <section className="flex flex-col items-center py-12">
-      <span className="bg-gray-100 text-purple-500 px-4 py-1 rounded-full text-sm font-medium mb-4">
+      <span className="bg-gray-100 text-purple-500 px-4 py-1 rounded-full text-sm font-famly mb-4">
         Project
       </span>
       <h2 className="text-3xl font-semibold text-center">

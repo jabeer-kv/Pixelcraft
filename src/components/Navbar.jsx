@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex justify-between items-center p-4 border-b border-gray-200 bg-white"> 
       <div className="flex items-center"> 
-        <img src={logo} alt="PixleCraft Logo" className="h-8 w-auto mr-2" /> 
+        <img src={logo} alt="PixleCraft Logo" className="h-10 w-auto mr-2" /> 
       </div>
       <div className="flex space-x-6">
         <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors duration-300">
