@@ -2,6 +2,7 @@
 import './App.css'
 import About from './components/about'
 import ContactUs from './components/ContactUs'
+import Footer from './components/footer'
 import HeroSection from './components/Hero'
 import Navbar from './components/Navbar'
 import OurLatestProject from './components/Projects'
@@ -22,6 +23,7 @@ function App() {
      <TestimonialsSection/>
      <WhyPixelCraft/>
      <ContactUs/>
+     <Footer/>
     </>
   )
 }

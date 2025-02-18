@@ -8,7 +8,6 @@ return (
         </span>
         <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row gap-16 items-center justify-center">
-                {/* Left Side: Text Content (Centered) */}
                 <div className="md:w-1/2 flex flex-col items-center text-center">
                     <div className="rounded-lg py-8 px-6">
                         <h2 className="text-3xl font-bold mb-4">Connect with Us</h2>
@@ -21,7 +20,6 @@ return (
                     </div>
                 </div>
 
-                {/* Right Side: Form */}
                 <div className="md:w-1/2">
                     <div className="rounded-lg py-8 px-6">
                         <form className="flex flex-col">
@@ -88,7 +86,6 @@ return (
                                     required
                                 ></textarea>
                             </div>
-                            {/* Centered Button */}
                             <div className="flex justify-center">
                                 <div className="relative group">
                                     <button className="relative px-6 py-2 rounded-lg font-medium border-2 border-transparent bg-white text-black transition-all duration-300 group-hover:text-white">
