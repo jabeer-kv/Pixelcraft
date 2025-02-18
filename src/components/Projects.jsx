@@ -5,10 +5,10 @@ function OurLatestProject() {
   return (
     <>
      <section className="flex flex-col items-center py-12">
-      <span className="bg-gray-100 text-purple-500 px-4 py-1 rounded-full text-sm font-famly mb-4">
+      <span className="bg-gray-100 text-purple-500 px-4 py-1 rounded-full text-sm mb-4">
         Project
       </span>
-      <h2 className="text-3xl font-semibold text-center">
+      <h2 className="text-3xl font-famly text-center">
         Our Latest <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6DDCFF] to-[#7F60F9]">Project</span>
       </h2>
 

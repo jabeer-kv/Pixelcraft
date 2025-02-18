@@ -16,7 +16,7 @@ function Services() {
               Digital Solutions
             </span>
           </h2>
-          <p className="text-[18px] leading-relaxed text-center mb-[75px] w-[1100px]"> 
+          <p className="text-[18px] text-[#27AAE2] leading-relaxed text-center mb-[75px] w-[1100px]"> 
             PixelCraft delivers web, app, and marketing solutions that drive growth,
             <br />
             enhance engagement, and streamline your digital presence.
