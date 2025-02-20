@@ -4,10 +4,6 @@ import HeroImage from "../assets/hero.png";
 const Hero = () => {
   return (
      
-    <div className="flex flex-col items-center justify-center bg-[#F8F9FA] min-h-screen">
-      {/* Navbar */}
-
-      {/* Hero Section with small gap (mt-4) */}
       <div className="container max-w-7xl mx-auto rounded-2xl shadow-lg p-12 bg-gradient-to-b from-purple-200 to-white mt-4">
         <section className="flex flex-col md:flex-row items-center justify-between text-center md:text-left">
           <div className="flex-1">
@@ -36,7 +32,6 @@ const Hero = () => {
           </div>
         </section>
       </div>
-    </div>
   );
 };
 
