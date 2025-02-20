@@ -12,7 +12,7 @@ const Hero = () => {
             >
               Elevate Your Brand with Digital{" "}
               <span 
-                className="bg-gradient-to-r from-[#82cdff] to-[#6060ea] px-6 border border-black text-white px-3 py-1 rounded-lg"
+                className="bg-gradient-to-r from-[#82cdff] to-[#6060ea] px-7 border border-black text-white py-3 rounded-lg text-3xl"
               >
                 Excellence
               </span>

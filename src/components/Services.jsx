@@ -26,13 +26,20 @@ function Services() {
 
 
             
-            <div className="bg-white rounded-lg p-[30px] shadow-md w-[350px]"> 
-              <img src={uiux} alt="Service 1" className="h-[100px] w-auto mx-auto mb-[20px]" /> 
-              <h3 className="text-[24px] font-semibold mb-[10px] text-center">Web Design & Development</h3> 
-              <p className="text-[16px] text-center"> 
-                We create stunning and functional websites that drive results.
-              </p>
-            </div>
+          <div className="bg-white rounded-lg p-[30px] shadow-md w-[350px] group relative overflow-hidden cursor-pointer">
+  <img src={uiux} alt="Service 1" className="h-[100px] w-auto mx-auto mb-[20px]" /> 
+
+  {/* Heading (moves up on hover) */}
+  <h3 className="text-[24px] font-semibold text-center transition-all duration-300 group-hover:-translate-y-[20px]">
+    Web Design & Development
+  </h3>
+
+  {/* Paragraph (hidden by default, appears on hover) */}
+  <p className="text-[16px] text-center opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-[10px]">
+    We create stunning and functional websites that drive results.
+  </p>
+</div>
+
 
            
           </div>

@@ -10,6 +10,7 @@ const AboutUsSection = () => {
           <span className="bg-gray-100 text-purple-500 px-4 py-1 rounded-full text-sm font-medium mb-4">
             About Us
           </span>
+          <section className="">
           {/* Heading */}
           <h2 className="text-[32px] font-famly mb-[16px] text-center ">
             How Transforms{" "}
@@ -24,10 +25,14 @@ const AboutUsSection = () => {
           </p>
 
           {/* Description */}
-          <p className="text-[18px] leading-relaxed text-center mb-[32px]">
-            PixelCraft empowers businesses with web, app, and marketing solutions that drive growth.
-            We simplify digital transformation with seamless and scalable strategies.
-          </p>
+          <p className="text-[18px] leading-relaxed text-center mb-[2px]">
+            PixelCraft empowers businesses with web, app, and marketing solutions that drive
+            </p>
+            <p className="text-[18px] leading-relaxed text-center mb-[32px]">
+            growth. We simplify digital transformation with seamless and scalable strategies.
+            </p>
+          
+          </section>
 
           {/* Illustration */}
           <img
